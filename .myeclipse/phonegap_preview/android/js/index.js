@@ -47,4 +47,24 @@ var app = {
 };
 
 app.initialize();
+
+
+function openBrowser()
+{
+	   var ref = window.open('http://www.shawAcademy.com', '_blank', 'location=yes');
+	    ref.addEventListener('loadstart', function(event) { alert(event.url); });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     
